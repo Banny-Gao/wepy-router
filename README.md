@@ -1,4 +1,4 @@
-## Wepy-router ![](https://img.shields.io/badge/wepy-router-orange.svg)
+# Wepy-router ![](https://img.shields.io/badge/wepy-router-orange.svg)
 
 
 
@@ -61,26 +61,25 @@
     relaunch: true
   })
   ```  
-    or  
+  or  
   ``` javascript
   wepy.$router.push(path: '/pages/common/a',{},true)
   ```
   **[navigate back or front]**   
-  >back to last page  
+  > Back to last page  
   ``` javascript
   wepy.$router.go(-1)
   ```    
-  go front  
+  > Going front  
 
   ``` javascript
   wepy.$router.go(1)
   ``` 
-  >> you wouldn't be caring about if it should be switching tabbar   
-  >> more than pages length have disposed
+  >> You won't be caring about if it should be switching tabbar   
+  >> More than pages length have disposed
 
 ### More 
-  >> if you want you this insdead of wepy.$router  
-  _Doing this_   
+  >> if you want to use _this_ insdead of _wepy.$router_ 
 
   ``` javascript
   import { routerMinx } from 'wepy-router'  
