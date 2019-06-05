@@ -54,6 +54,12 @@
     }
   })
   ```   
+  use by name
+  ``` javascript
+  wepy.$router.push({
+    name: 'CommonA'
+  })
+  ```
   **[reLaunch]**   
   ``` javascript
   wepy.$router.push({
