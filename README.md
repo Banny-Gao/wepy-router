@@ -4,7 +4,7 @@
 
 ### Install
   ``` javascript
-  npm i wepy --save
+  npm i wepy-router --save
   ```  
 ### Config & Init
   **app.wepy**  
@@ -54,7 +54,7 @@
     }
   })
   ```   
-    **[reLaunch]**   
+  **[reLaunch]**   
   ``` javascript
   wepy.$router.push({
     path: '/pages/common/b',
