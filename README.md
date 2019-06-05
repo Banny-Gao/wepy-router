@@ -28,7 +28,6 @@
   export default class extends wepy.app {
     config = config;
     router = new Router(config);
-    qqMap = qqMap;
     globalData = {};
     constructor() {
       super()
