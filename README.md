@@ -107,7 +107,7 @@
   }
   ```
 ### License
-  [MIT](https://opensource.org/licenses/MIT)
+  [ISC](https://choosealicense.com/licenses/isc/)
   
 
 
